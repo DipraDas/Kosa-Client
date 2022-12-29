@@ -13,22 +13,22 @@ const Sponsor = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-xl-3 col-lg-12">
-                        <Card>
+                        <Card className='border-0'>
                             <Card.Img variant="top" src={logo1} />
                         </Card>
                     </div>
                     <div className="col-xl-3 col-lg-12">
-                        <Card>
+                        <Card className='border-0'>
                             <Card.Img variant="top" src={logo2} />
                         </Card>
                     </div>
                     <div className="col-xl-3 col-lg-12">
-                        <Card>
+                        <Card className='border-0'>
                             <Card.Img variant="top" src={logo3} />
                         </Card>
                     </div>
                     <div className="col-xl-3 col-lg-12">
-                        <Card>
+                        <Card className='border-0'>
                             <Card.Img variant="top" src={logo4} />
                         </Card>
                     </div>
