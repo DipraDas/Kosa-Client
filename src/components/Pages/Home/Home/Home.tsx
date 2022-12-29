@@ -4,16 +4,18 @@ import Sponsor from '../../../Shared/Sections/Sponsor/Sponsor';
 import AboutUs from '../AboutUs/AboutUs';
 import Banner from '../Banner/Banner';
 import Hair from '../Hair/Hair';
+import PremiumHair from '../PremiumHair/PremiumHair';
 
 const Home = () => {
     return (
-        <div>
+        <>
             <Banner></Banner>
             <Sponsor></Sponsor>
             <AboutUs></AboutUs>
             <OpeningHours></OpeningHours>
             <Hair></Hair>
-        </div>
+            <PremiumHair></PremiumHair>
+        </>
     );
 };
 
