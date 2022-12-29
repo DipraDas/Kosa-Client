@@ -7,7 +7,7 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <div>
+        <div style={{ position: 'sticky', zIndex: '99999', top: '0', borderBottom: '1.5px solid #ececec' }}>
             <Navbar className='navBarColor py-0' collapseOnSelect expand="lg" >
                 <Container>
                     <Navbar.Brand href="#home" className='logoImg'>
